@@ -1,0 +1,469 @@
+/* Hero Section Styles */
+
+.hero-section {
+    display: flex;
+    padding: 64px;
+    padding-bottom: 128px;
+    align-items: flex-start;
+    gap: 32px;
+    overflow: hidden;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+@media (max-width: 991px) {
+    .hero-section {
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+}
+
+.hero-content {
+    min-width: 240px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 512px;
+}
+@media (max-width: 991px) {
+    .hero-content {
+        max-width: 100%;
+    }
+}
+
+.hero-content-inner {
+    width: 100%;
+}
+@media (max-width: 991px) {
+    .hero-content-inner {
+        max-width: 100%;
+    }
+}
+
+.hero-title {
+    color: #202020;
+    font-family:
+            Poppins,
+            -apple-system,
+            Roboto,
+            Helvetica,
+            sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+@media (max-width: 991px) {
+    .hero-title {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.hero-description {
+    color: #202020;
+    font-family:
+            Poppins,
+            -apple-system,
+            Roboto,
+            Helvetica,
+            sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+@media (max-width: 991px) {
+    .hero-description {
+        max-width: 100%;
+    }
+}
+
+.booking-form {
+    margin-top: 32px;
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width: 991px) {
+    .booking-form {
+        max-width: 100%;
+    }
+}
+
+.trip-options-container {
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    display: flex;
+    min-height: 34px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+}
+@media (max-width: 991px) {
+    .trip-options-container {
+        max-width: 100%;
+    }
+}
+
+.trip-options {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    margin: auto 0;
+    height: 34px;
+    width: 640px;
+    padding: 0 24px;
+    align-items: center;
+    gap: 40px 100px;
+    overflow: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+    .trip-options {
+        max-width: 100%;
+        padding: 0 20px;
+        height: auto;
+    }
+}
+
+.radio-option {
+    align-self: stretch;
+    display: flex;
+    margin: auto 0;
+    padding: 2px 0;
+    align-items: center;
+    gap: 6px;
+    justify-content: flex-start;
+}
+
+.radio-button {
+    align-self: stretch;
+    display: flex;
+    margin: auto 0;
+    padding: 3px 0;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 18px;
+}
+
+.radio-label {
+    color: #202020;
+    font-family:
+            Poppins,
+            -apple-system,
+            Roboto,
+            Helvetica,
+            sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    align-self: stretch;
+    margin: auto 0;
+}
+
+.passenger-count-field {
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    margin: auto 0;
+    width: 113px;
+    padding: 0;
+}
+
+.passenger-count-input {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    margin: auto 0;
+    min-height: 36px;
+    width: 113px;
+    gap: 6px;
+    justify-content: flex-start;
+    height: 36px;
+}
+
+/*.passenger-count-field-inner {
+  align-self: stretch;
+  margin: auto 0;
+  min-height: 36px;
+  width: 113px;
+  height: 36px;
+  gap: 6px;
+}*/
+
+.passenger-count-image {
+
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 34px;
+
+}
+
+.passenger-count-field-inner {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 88px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 34px;
+    margin-bottom: 5px;
+}
+
+.passenger-count-field-inner button {
+    background: none;
+    border: 0;
+    font-size: 16px;
+}
+
+.passenger-count-field-inner button, .passenger-count-field-inner span {
+    margin-right: 7px;
+}
+
+.passenger-count-field-inner button:last-child {
+    color: #0578ff;
+}
+
+.station-datetime-section {
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 24px 32px;
+    overflow: hidden;
+    font-family:
+            Poppins,
+            -apple-system,
+            Roboto,
+            Helvetica,
+            sans-serif;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+    .station-datetime-section {
+        max-width: 100%;
+    }
+}
+
+.station-input-group {
+    min-width: 240px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 243px;
+}
+
+.station-label {
+    color: #202020;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.station-input {
+    color: #90a3bf;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 16px;
+    min-height: 53px;
+    padding: 16px 24px;
+    gap: 40px 100px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    border: none;
+}
+@media (max-width: 991px) {
+    .station-input {
+        padding: 16px 20px;
+    }
+}
+
+.datetime-section {
+    display: flex;
+    min-width: 240px;
+    align-items: flex-start;
+    gap: 32px;
+    overflow: hidden;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 579px;
+}
+@media (max-width: 991px) {
+    .datetime-section {
+        max-width: 100%;
+    }
+}
+
+.date-picker-group {
+    min-width: 240px;
+    width: 512px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+@media (max-width: 991px) {
+    .date-picker-group {
+        max-width: 100%;
+    }
+}
+
+.date-picker-label {
+    color: #202020;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.date-picker-container {
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    max-width: 640px;
+    align-items: flex-start;
+    gap: 32px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #90a3bf;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 21px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+    .date-picker-container {
+        max-width: 100%;
+        white-space: initial;
+    }
+}
+
+.date-picker-field {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    min-width: 240px;
+    min-height: 53px;
+    padding: 15px 24px;
+    align-items: center;
+    gap: 12px;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 243px;
+}
+
+.date-picker-field::before {
+    display: block;
+    position: relative;
+    width: 15.5px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    content: " ";
+    background-image: url("../img/Calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.date-picker-text {
+    padding-left: 5px;
+    color:#90a3bf;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .date-picker-field {
+        padding: 15px 20px;
+        white-space: initial;
+    }
+}
+
+.date-picker-icon {
+    aspect-ratio: 0.67;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+    flex-shrink: 0;
+}
+
+.date-picker-text {
+    color: #90a3bf;
+    border: none;
+    /*align-self: stretch;
+    margin: auto 0;
+    width: 170px;*/
+}
+
+.find-button {
+    color: #fff;
+    align-self: stretch;
+    border-radius: 10px;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px 24px;
+    gap: 10px;
+    overflow: hidden;
+    font-family:
+            Poppins,
+            -apple-system,
+            Roboto,
+            Helvetica,
+            sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #0578ff;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 991px) {
+    .find-button {
+        max-width: 100%;
+        padding: 16px 20px;
+    }
+}
+
+.hero-image {
+    aspect-ratio: 0.71;
+    object-fit: contain;
+    object-position: center;
+    width: 640px;
+    min-width: 240px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+@media (max-width: 991px) {
+    .hero-image {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .passenger-count-field-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 88px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .passenger-count-field-inner button {
+        background: none;
+        border: 0;
+        font-size: 16px;
+    }
+
+    .passenger-count-field-inner button:last-child {
+        color: #0578ff;
+    }
+}
