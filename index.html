@@ -30,7 +30,7 @@
 
       <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
         <img class="hamburger-icon" id="hamburger-icon" alt="hamburger-icon" src="img/Menu.svg"> 
-        <img class="close-icon" id="close-icon" close-menu" src="img/Menu-2.png">
+        <img class="close-icon close-menu" id="close-icon" alt="close icon" src="img/Menu-2.png">
       </button>
       
     </header>
@@ -85,16 +85,16 @@
             </div>
             <div class="station-datetime-section">
               <div class="station-input-group">
-                <div class="station-label">Departure</div>
-                <input
+                <label for="station-input" class="station-label">Departure</label>
+                <input id="station-input"
                   type="text"
                   class="station-input"
                   placeholder="Your City/Station"
                 />
               </div>
               <div class="station-input-group">
-                <div class="station-label">Arrival</div>
-                <input
+                <label for="arrival-input" class="station-label">Arrival</label>
+                <input id="arrival-input"
                   type="text"
                   class="station-input"
                   placeholder="Where to?"
@@ -104,12 +104,12 @@
                 <div class="date-picker-group">
                   <div class="date-picker-label">Pick your lucky day</div>
                   <div class="date-picker-container">
-                    <div class="date-picker-field">
+                    <label for="departure" class="date-picker-field">
                       <input id="departure" type="text" class="date-picker-text" placeholder="Depart" />
-                    </div>
-                    <div class="date-picker-field">
-                      <input id="departure" type="text" class="date-picker-text" placeholder="Return" />
-                    </div>
+                    </label>
+                    <label for="return" class="date-picker-field">
+                      <input id="return" type="text" class="date-picker-text" placeholder="Return" />
+                    </label>
                   </div>
                 </div>
               </div>
@@ -190,13 +190,13 @@
       
         <div class="app-items">
           <div class="download-item1">
-            <div class="app-img"><img src="img/Badges.png" alt"googleplay"></div>
+            <div class="app-img"><img src="img/Badges.png" alt="googleplay"></div>
           </div>
           <div class="download-item2">
-            <div class="app-img"><img src="img/Badges-2.png" alt"appgallery"></div>
+            <div class="app-img"><img src="img/Badges-2.png" alt="appgallery"></div>
           </div>
           <div class="download-item3">
-            <div class="app-img"><img src="img/Badges-3.png" alt"appstore"></div>
+            <div class="app-img"><img src="img/Badges-3.png" alt="appstore"></div>
           </div>
         </div>
     </section>
